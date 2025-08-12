@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css"> 
+    <link href="https://db.onlinewebfonts.com/c/77a7c7ef535ef06fdd54c860c1e0c07e?family=Sculpin+Black" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/9c443ad7c0f391c4854a6b7c0f52788b?family=Nunito+Sans" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <body class="home-page">
+
+  <div class="wrapper">
+
+    <header class="header header-scroll">
+       @@include("./components/header.html")
+    </header>
+<main class="main">
+  @@include("./home/Monetize/monetize.html")
+  @@include("./home/ItsEasy/itsEasyTitlle.html")
+  @@include("./home/ItsEasy/itsEasy.html")
+  @@include("./home/parnters/partners.html")
+  @@include("./home/swiper//swiper.html")
+  @@include("./home/vince/vince.html")
+  @@include("./home/ready/ready.html")
+  @@include("./home/mealco/mealcoTitlle.html")
+  @@include("./home/mealco/mealco.html")
+
+  </main>
+<footer class="footer">
+@@include("./components/footer.html")
+</footer>
+
+@@include("./components/modal-burger.html")
+
+</div>
+
+    
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.bundle.js"></script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+.partners_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  background-color: #fbb251;
+}
+
+.partners_body-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 620px;
+  padding: 50px;
+  -webkit-box-shadow: 5px 5px 0px 2px rgb(0, 0, 0);
+          box-shadow: 5px 5px 0px 2px rgb(0, 0, 0);
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+
+.partners_body-title {
+  -webkit-padding-before: 90px;
+          padding-block-start: 90px;
+  -webkit-padding-after: 40px;
+          padding-block-end: 40px;
+}
+
+.partners_body-title h1 {
+  font-size: 65px;
+}
+
+.partner_item p {
+  font-size: 26px;
+  font-family: Nunito Sans, sans-serif;
+  font-weight: 400;
+}
+
+.partner_item:not(:last-child) {
+  position: relative;
+}
+
+.partner_item:not(:last-child)::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.partner_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  padding-block: 20px;
+}
+
+.footer_body {
+  text-align: center;
+  -webkit-padding-before: 47.7px;
+          padding-block-start: 47.7px;
+  width: 550px;
+  -webkit-padding-after: 95px;
+          padding-block-end: 95px;
+}
+
+.footer_body-title h4 {
+  font-size: 24px;
+}
+
+.footer_body-text p {
+  -webkit-padding-before: 10px;
+          padding-block-start: 10px;
+  font-size: 22px;
+  font-family: Nunito Sans, sans-serif;
+}/*# sourceMappingURL=partners.css.map */

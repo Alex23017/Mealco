@@ -1,0 +1,124 @@
+@use "../../variables" as m;
+
+.mealco-container-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: m.$main-color--purple;
+  padding: 100px 80px;
+  border: solid 1px black;
+  @media (max-width: 900px) {
+    padding-block: 65px;
+    padding-inline: 25px;
+  }
+}
+
+.mealco_body-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  background-color: transparent;
+  padding-block-end: 60px;
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.mealco-cards {
+  display: flex;
+  gap: 0;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 6px 5px 0px 0px #000;
+  width: 100%;
+  max-height: 277px;
+  overflow: hidden;
+  border: none;
+  border: solid 1px black;
+  align-items: center;
+  @media (max-width: 900px) {
+    height: 145px;
+  }
+}
+
+.mealco_card-img {
+  display: flex;
+  width: 500px;
+  height: 100%;
+  border: none;
+  overflow: hidden;
+  border: solid 1px black;
+}
+
+.mealco_card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.tech-img {
+  display: flex;
+  width: 500px;
+  height: 100%;
+  border: none;
+  overflow: hidden;
+  border: solid 1px black;
+  @media (max-width: 900px) {
+  }
+}
+.tech-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.mealco_card-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  padding: 30px;
+  width: 100%;
+  text-align: left;
+  @media (max-width: 900px) {
+    padding: 15px;
+    padding-inline: 20px;
+    display: block;
+    overflow: hidden;
+    height: 145px;
+  }
+}
+
+.mealco_card-text h2 {
+  font-size: m.$font-size-28;
+  line-height: 1.2;
+  overflow: hidden;
+  @media (max-width: 900px) {
+    font-size: m.$font-size-18;
+ 
+  }
+}
+
+.mealco_card-img--black {
+  background-color: #131415;
+}
+
+.mealco_card-img--orange {
+  background-color: #f48526;
+}
+
+.malco-link {
+  font-size: m.$font-size-18;
+}
+
+.malco_items-link {
+  background-color: white;
+  padding-block: 25px;
+  padding-inline: 60px;
+  border-radius: 100px;
+  border: solid 3px black;
+  background-color: white;
+  box-shadow: 6px 5px 0px 0px #000;
+}

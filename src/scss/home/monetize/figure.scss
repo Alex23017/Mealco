@@ -1,0 +1,51 @@
+.red-cercle,
+.vector_blue,
+.vector_orange,
+.vector_purple,
+.vector_green,
+.vector_pink-sticks {
+  position: absolute;
+  display: inline-block;
+}
+
+.red-cercle {
+  top: 300px;
+  right: 80.3px;
+}
+
+.vector_blue {
+  top: 0;
+  left: 518px;
+}
+.vector_orange {
+  top: 241px;
+  left: 0;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.vector_purple {
+  left: 143.69px;
+  bottom: 0;
+}
+
+.vector_green {
+  right: 439.38px;
+  bottom: 0;
+}
+
+.vector_pink-sticks {
+  right: 0;
+  bottom: 0;
+}
+
+.red-cercle,
+.vector_blue,
+.vector_orange,
+.vector_purple,
+.vector_green,
+.vector_pink-sticks {
+  @media (max-width: 1265px) {
+    display: none;
+  }
+}

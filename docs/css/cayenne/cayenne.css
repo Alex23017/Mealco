@@ -1,0 +1,342 @@
+.cayenne-wrapper {
+  border: solid 0.0625rem black;
+}
+
+.cayenne-wrapper .header {
+  position: relative;
+  background-color: inherit;
+  max-width: 90rem;
+}
+
+.cayenne-page {
+  background-color: #e5fcf5;
+}
+
+.cayenne-section {
+  -webkit-padding-before: 8.4375rem;
+          padding-block-start: 8.4375rem;
+  -webkit-padding-after: 5rem;
+          padding-block-end: 5rem;
+  padding-inline: 5rem;
+  border-bottom: solid 0.0625rem black;
+}
+@media (max-width: 900px) {
+  .cayenne-section {
+    -webkit-padding-before: 5rem;
+            padding-block-start: 5rem;
+    padding-inline: 0;
+    -webkit-padding-after: 0;
+            padding-block-end: 0;
+  }
+}
+
+.cayenne-body {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3.75rem;
+}
+@media (max-width: 900px) {
+  .cayenne-body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+}
+
+.cayenne-arrow {
+  position: absolute;
+  top: -6.875rem;
+}
+
+.cayenne_body-title {
+  max-width: 39.0625rem;
+}
+@media (max-width: 900px) {
+  .cayenne_body-title {
+    padding-inline: 1.5625rem;
+  }
+}
+
+.cayenne_body-title p {
+  font-size: 1.875rem;
+  font-weight: 400;
+  font-family: Nunito Sans, sans-serif;
+  -webkit-padding-before: 0.3125rem;
+          padding-block-start: 0.3125rem;
+}
+@media (max-width: 900px) {
+  .cayenne_body-title p {
+    font-size: 1.375rem;
+  }
+}
+
+.cayenne-logo {
+  width: 100%;
+  max-width: 20.625rem;
+  height: auto;
+}
+
+.cayenne_body-burger {
+  max-width: 37.125rem;
+  max-height: 50.75rem;
+  border-radius: 0.625rem;
+  overflow: hidden;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border: solid 0.0625rem black;
+}
+@media (max-width: 900px) {
+  .cayenne_body-burger {
+    max-height: 13.4375rem;
+  }
+}
+
+.cayenne-burger {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+.cayenne_section-crafted {
+  padding-block: 5rem;
+  -webkit-padding-start: 11.875rem;
+          padding-inline-start: 11.875rem;
+  -webkit-padding-end: 6.25rem;
+          padding-inline-end: 6.25rem;
+  border-bottom: solid 0.0625rem black;
+}
+@media (max-width: 900px) {
+  .cayenne_section-crafted {
+    padding-inline: 0;
+    padding-block: 3.75rem;
+  }
+}
+
+.crafted_body-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (max-width: 900px) {
+  .crafted_body-column {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 1.25rem;
+  }
+}
+
+.crafted-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.crafted_body-img {
+  border-radius: 0.625rem;
+  border: solid 0.0625rem black;
+  max-width: 31.25rem;
+  height: auto;
+  overflow: hidden;
+}
+
+.crafted-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+}
+
+.crafted_body-title {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  max-width: 37.5rem;
+}
+@media (max-width: 900px) {
+  .crafted_body-title {
+    padding-inline: 1.5625rem;
+  }
+}
+
+.crafted_body-title h2 {
+  font-size: 4.0625rem;
+}
+@media (max-width: 900px) {
+  .crafted_body-title h2 {
+    font-size: 2.1875rem;
+    -webkit-padding-after: 1.5625rem;
+            padding-block-end: 1.5625rem;
+  }
+}
+
+.crafted_body-title p {
+  font-size: 1.625rem;
+  font-weight: 400;
+  font-family: Nunito Sans, sans-serif;
+}
+@media (max-width: 900px) {
+  .crafted_body-title p {
+    font-size: 1.25rem;
+  }
+}
+
+.menu_body-title {
+  padding-block: 2.1875rem;
+  padding-inline: 5rem;
+  background-color: white;
+  border-bottom: solid 0.0625rem black;
+}
+@media (max-width: 900px) {
+  .menu_body-title {
+    padding-inline: 1.5625rem;
+  }
+}
+
+.menu_body-title h1 {
+  font-size: 4.0625rem;
+}
+@media (max-width: 900px) {
+  .menu_body-title h1 {
+    font-size: 2rem;
+  }
+}
+
+.cayenne_section-cards {
+  -webkit-padding-before: 3.75rem;
+          padding-block-start: 3.75rem;
+  border-bottom: solid 0.0625rem black;
+  padding-inline: 5rem;
+}
+@media (max-width: 900px) {
+  .cayenne_section-cards {
+    padding-inline: 1.5625rem;
+    -webkit-padding-before: 0;
+            padding-block-start: 0;
+  }
+}
+
+.mealco_cards-title {
+  -webkit-padding-after: 2.5rem;
+          padding-block-end: 2.5rem;
+}
+@media (max-width: 900px) {
+  .mealco_cards-title {
+    -webkit-padding-after: 1.25rem;
+            padding-block-end: 1.25rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .mealco_cards-title h2 {
+    font-size: 1.25rem;
+  }
+}
+
+.sandwiches-cards,
+.sides-cards,
+.beverage-cards {
+  -webkit-padding-after: 6.25rem;
+          padding-block-end: 6.25rem;
+}
+@media (max-width: 900px) {
+  .sandwiches-cards,
+  .sides-cards,
+  .beverage-cards {
+    -webkit-padding-after: 0;
+            padding-block-end: 0;
+  }
+}
+
+.body_card-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 0.9375rem;
+}
+
+.body_card-title h2 {
+  font-size: 1.5rem;
+}
+
+.body_card-title p {
+  font-size: 1.375rem;
+  font-weight: 400;
+  font-family: Nunito Sans, sans-serif;
+}
+
+.cayenne_section-menu {
+  -webkit-padding-after: 2.5rem;
+          padding-block-end: 2.5rem;
+  display: none;
+}
+@media (max-width: 600px) {
+  .cayenne_section-menu {
+    display: block;
+  }
+}
+
+.cayenne_menu-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3.125rem;
+  overflow: auto;
+  height: 3.125rem;
+}
+
+.cayenne_menu-item {
+  position: relative;
+}
+
+.cayenne_menu-item button {
+  font-size: 1.25rem;
+  font-weight: 700;
+  opacity: 0.5;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.cayenne_menu-item.active button {
+  opacity: 1;
+}
+
+.cayenne_menu-item.active::after {
+  position: absolute;
+  content: "";
+  bottom: 0.3125rem;
+  left: 45%;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: black;
+  border-radius: 100%;
+}
+/*# sourceMappingURL=cayenne.css.map */

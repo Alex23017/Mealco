@@ -1,0 +1,109 @@
+@use "../../variables" as v;
+
+.vince_container {
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  @media (max-width: 900px) {
+    position: relative;
+  }
+}
+
+.logo {
+  display: flex;
+  padding-block-start: 65px;
+  justify-content: flex-end;
+  padding-inline: 80px;
+  @media (max-width: 900px) {
+    position: absolute;
+    top: 255px;
+    right: 0px;
+    padding-inline: 25px;
+  }
+}
+.logo img {
+  width: 150px;
+  height: 75px;
+  @media (max-width: 900px) {
+    width: 70px;
+    height: 35px;
+  }
+}
+
+.vince_body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 80px;
+  gap: 64px;
+  padding-block-end: 135px;
+  @media (max-width: 900px) {
+    flex-direction: column-reverse;
+    padding-inline: 25px;
+    padding-block-start: 65px;
+    padding-block-end: 65px;
+  }
+}
+
+.vince-img {
+  border: solid 1px black;
+  border-radius: 250px;
+  width: 710px;
+  height: 400px;
+  @media (max-width: 900px) {
+    width: 330px;
+    height: 185px;
+  }
+
+}
+
+
+
+.vince_column-title h1 {
+  font-size: v.$font-size-65;
+  @media (max-width: 900px) {
+    font-size: v.$font-size-32;
+  }
+}
+.author {
+  font-size: v.$font-size-16;
+  font-family: v.$font-secondary-nunito;
+  font-weight: 400;
+  padding-block-start: 20px;
+}
+.author-text {
+  max-width: 506px;
+  font-size: v.$font-size-26;
+  font-family: v.$font-secondary-nunito;
+  font-weight: 400;
+  padding-block-start: 25px;
+  padding-block-end: 40px;
+  @media (max-width: 900px) {
+    font-size: v.$font-size-26;
+    padding-block-start: 20px;
+    padding-block-end: 30px;
+  }
+}
+.value_sucess {
+  display: inline-block;
+  padding-inline: 45px;
+  padding-block: 25px;
+  border: 1px solid black;
+  box-shadow: 6px 6px 0 2px rgba(0, 0, 0, 1);
+  @media (max-width: 900px) {
+    padding-inline: 35px;
+    padding-block: 20px;
+  }
+}
+
+.value_sucess p {
+  font-size: v.$font-size-18;
+  @media (max-width: 900px) {
+    font-size: v.$font-size-14;
+  }
+}
+.value_sucess h1 {
+  font-size: v.$font-size-80;
+  @media (max-width: 900px) {
+    font-size: v.$font-size-60;
+  }
+}

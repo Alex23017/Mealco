@@ -1,0 +1,53 @@
+.red-cercle,
+.vector_blue,
+.vector_orange,
+.vector_purple,
+.vector_green,
+.vector_pink-sticks {
+  position: absolute;
+  display: inline-block;
+}
+
+.red-cercle {
+  top: 18.75rem;
+  right: 5.01875rem;
+}
+
+.vector_blue {
+  top: 0;
+  left: 32.375rem;
+}
+
+.vector_orange {
+  top: 15.0625rem;
+  left: 0;
+  max-width: 12.5rem;
+  max-height: 12.5rem;
+}
+
+.vector_purple {
+  left: 8.98063rem;
+  bottom: 0;
+}
+
+.vector_green {
+  right: 27.46125rem;
+  bottom: 0;
+}
+
+.vector_pink-sticks {
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-width: 1265px) {
+  .red-cercle,
+  .vector_blue,
+  .vector_orange,
+  .vector_purple,
+  .vector_green,
+  .vector_pink-sticks {
+    display: none;
+  }
+}
+/*# sourceMappingURL=figure.css.map */

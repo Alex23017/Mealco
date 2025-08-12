@@ -1,0 +1,130 @@
+.monetize_container {
+  position: relative;
+  background-color: #e5fcf5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: solid 1px black;
+}
+.monetize_container .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  padding-inline: 50px;
+  padding-block: 41px;
+}
+.monetize_container .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.monetize_container .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+.monetize_container .menu_item-link {
+  font-size: 18px;
+}
+.monetize_container .menu_item-link--button {
+  padding-inline: 29px;
+  padding-block: 18px;
+  border-radius: 100px;
+  border: solid 3px black;
+  background-color: white;
+  -webkit-box-shadow: 6px 5px 0px 0px #000, 0 0 0 2px #000;
+          box-shadow: 6px 5px 0px 0px #000, 0 0 0 2px #000;
+}
+
+.body_container {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  overflow-y: auto;
+  text-align: center;
+  -webkit-padding-before: 126px;
+          padding-block-start: 126px;
+  padding-inline: 80px;
+}
+
+.body_title {
+  font-size: 100px;
+  line-height: 110px;
+  -webkit-padding-after: 20px;
+          padding-block-end: 20px;
+}
+
+.body_paragraf {
+  font-family: Nunito Sans, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  -webkit-padding-after: 40px;
+          padding-block-end: 40px;
+}
+
+.body_link {
+  font-size: 32px;
+  -webkit-padding-after: 195.5px;
+          padding-block-end: 195.5px;
+}
+
+.menu_item_link--width {
+  display: inline-block;
+  width: 100%;
+}
+
+.red-cercle {
+  position: absolute;
+  display: inline-block;
+  top: 169px;
+  right: 80.3px;
+}
+
+.vector_blue {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 518px;
+}
+
+.vector_orange {
+  position: absolute;
+  display: inline-block;
+  top: 241px;
+  left: 0;
+}
+
+.vector_purple {
+  position: absolute;
+  display: inline-block;
+  left: 143.69px;
+  bottom: 0;
+}
+
+.vector_green {
+  position: absolute;
+  display: inline-block;
+  right: 439.38px;
+  bottom: 0;
+}
+
+.vector_pink-sticks {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  bottom: 0;
+}/*# sourceMappingURL=monetize.css.map */

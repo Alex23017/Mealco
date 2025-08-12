@@ -1,0 +1,67 @@
+@use "../../variables" as m;
+
+.monetize_container {
+  position: relative;
+  background-color: m.$main-color--lightBlue;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  @media (max-width: 600px) {
+    height: 100vh;
+  }
+}
+
+.body_container {
+  position: relative;
+  flex: 1 1 auto;
+  text-align: center;
+  padding-block-start: 126px;
+  padding-block-end: 195px;
+  padding-inline: 80px;
+  @media (max-width: 900px) {
+    padding-block-start: 165px;
+    padding-inline: 25px;
+      padding-block-end: 195px;
+
+  }
+}
+.body_title {
+  font-size: m.$font-size-100;
+  line-height: 110px;
+  padding-block-end: 20px;
+  padding-block-start: 105px;
+  @media (max-width: 900px) {
+    font-size: m.$font-size-40;
+    line-height: 45px;
+    padding-block-end: 15px;
+    padding-block-start: 65px;
+  }
+}
+.body_paragraf {
+  font-family: m.$font-secondary-nunito;
+  font-size: m.$font-size-30;
+  font-weight: 400;
+  padding-block-end: 40px;
+  @media (max-width: 900px) {
+    font-size: m.$font-size-22;
+    padding-block-end: 20px;
+  }
+}
+
+.menu_item_link--width {
+  font-size: m.$font-size-32;
+  @media (max-width: 900px) {
+      font-size: m.$font-size-16;
+  
+  }
+}
+
+.body_link {
+  padding-block-end: 195.5px;
+
+}
+
+.menu_item_link--width {
+  display: inline-block;
+  width: 100%;
+}

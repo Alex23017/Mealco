@@ -1,0 +1,93 @@
+.monetize_container {
+  position: relative;
+  background-color: #e5fcf5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: solid 0.0625rem black;
+}
+@media (max-width: 600px) {
+  .monetize_container {
+    height: 100vh;
+  }
+}
+
+.body_container {
+  position: relative;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  text-align: center;
+  -webkit-padding-before: 7.875rem;
+          padding-block-start: 7.875rem;
+  -webkit-padding-after: 12.1875rem;
+          padding-block-end: 12.1875rem;
+  padding-inline: 5rem;
+}
+@media (max-width: 900px) {
+  .body_container {
+    -webkit-padding-before: 10.3125rem;
+            padding-block-start: 10.3125rem;
+    padding-inline: 1.5625rem;
+    -webkit-padding-after: 12.1875rem;
+            padding-block-end: 12.1875rem;
+  }
+}
+
+.body_title {
+  font-size: 6.25rem;
+  line-height: 6.875rem;
+  -webkit-padding-after: 1.25rem;
+          padding-block-end: 1.25rem;
+  -webkit-padding-before: 6.5625rem;
+          padding-block-start: 6.5625rem;
+}
+@media (max-width: 900px) {
+  .body_title {
+    font-size: 2.5rem;
+    line-height: 2.8125rem;
+    -webkit-padding-after: 0.9375rem;
+            padding-block-end: 0.9375rem;
+    -webkit-padding-before: 4.0625rem;
+            padding-block-start: 4.0625rem;
+  }
+}
+
+.body_paragraf {
+  font-family: Nunito Sans, sans-serif;
+  font-size: 1.875rem;
+  font-weight: 400;
+  -webkit-padding-after: 2.5rem;
+          padding-block-end: 2.5rem;
+}
+@media (max-width: 900px) {
+  .body_paragraf {
+    font-size: 1.375rem;
+    -webkit-padding-after: 1.25rem;
+            padding-block-end: 1.25rem;
+  }
+}
+
+.menu_item_link--width {
+  font-size: 2rem;
+}
+@media (max-width: 900px) {
+  .menu_item_link--width {
+    font-size: 1rem;
+  }
+}
+
+.body_link {
+  -webkit-padding-after: 12.21875rem;
+          padding-block-end: 12.21875rem;
+}
+
+.menu_item_link--width {
+  display: inline-block;
+  width: 100%;
+}
+/*# sourceMappingURL=section.css.map */

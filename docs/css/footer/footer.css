@@ -1,0 +1,102 @@
+.footer_container {
+  border-left: solid 0.0625rem black;
+  border-right: solid 0.0625rem black;
+  border-bottom: solid 0.0625rem black;
+  background-color: white;
+}
+
+.footer-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-inline: 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (max-width: 900px) {
+  .footer-body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0;
+  }
+}
+
+.footer-img {
+  padding-block: 2.1875rem;
+  -webkit-padding-end: 5rem;
+          padding-inline-end: 5rem;
+  border-right: solid 0.0625rem black;
+}
+@media (max-width: 900px) {
+  .footer-img {
+    border: inherit;
+    padding: 1.25rem;
+  }
+}
+
+.footer-img img {
+  width: 100%;
+}
+
+.footer_body-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+@media (max-width: 900px) {
+  .footer_body-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    text-align: center;
+    border: solid 0.0625rem black;
+  }
+}
+
+.copyright {
+  -webkit-padding-start: 5rem;
+          padding-inline-start: 5rem;
+}
+@media (max-width: 900px) {
+  .copyright {
+    -webkit-padding-start: 0;
+            padding-inline-start: 0;
+    padding-block: 1.25rem;
+  }
+}
+
+.copyright p {
+  font-size: 0.8125rem;
+  font-family: Nunito Sans, sans-serif;
+}
+
+.menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3.125rem;
+}
+@media (max-width: 900px) {
+  .menu-list {
+    -webkit-padding-before: 1.25rem;
+            padding-block-start: 1.25rem;
+  }
+}
+
+.menu_list-link {
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+/*# sourceMappingURL=footer.css.map */

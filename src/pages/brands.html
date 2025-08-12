@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brands</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="brands-page">
+    <div class="brands-wrapper">
+      <header class="header">@@include("./components/header.html")</header>
+      <main class="brands-main">
+        <section>
+          <div class="brands-title">
+            <h1>Mealco brands</h1>
+          </div>
+          <div class="brands-text">
+            <p>
+              Mealco’s collection of high-demand brands can be operated with minimal equipment and
+              training
+            </p>
+          </div>
+        </section>
+        <section>
+          <div class="brands-cards">
+            <div id="product-container"></div>
+          </div>
+        </section>
+      </main>
+
+      @@include("./components/footer.html") @@include("./components/modal-burger.html")
+      @@include("./components/modalWaitlist.html")
+    </div>
+    <script src="js/main.bundle.js"></script>
+    <script src="js/products.bundle.js"></script>
+  </body>
+</html>

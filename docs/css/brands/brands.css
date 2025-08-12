@@ -1,0 +1,125 @@
+.brands-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #06d2cc;
+}
+
+.brands-main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding-inline: 5rem;
+}
+@media (max-width: 900px) {
+  .brands-main {
+    padding-inline: 1.5625rem;
+  }
+}
+
+.brands-page .nav-brands {
+  padding-inline: 3.125rem;
+}
+
+.brands-title {
+  -webkit-padding-before: 4.0625rem;
+          padding-block-start: 4.0625rem;
+  -webkit-padding-after: 1.25rem;
+          padding-block-end: 1.25rem;
+  max-width: 53.125rem;
+}
+@media (max-width: 500px) {
+  .brands-title {
+    text-align: center;
+  }
+}
+
+.brands-title h1 {
+  font-size: 6.25rem;
+}
+@media (max-width: 500px) {
+  .brands-title h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+}
+
+.brands-text p {
+  font-size: 1.875rem;
+  font-family: Nunito Sans, sans-serif;
+  font-weight: 400;
+  max-width: 53.125rem;
+}
+@media (max-width: 500px) {
+  .brands-text p {
+    font-size: 1.375rem;
+    max-width: 20.5625rem;
+  }
+}
+
+.brands-page .swiper-slide {
+  max-width: 18.75rem;
+}
+
+.brands-page .header {
+  background-color: #f0f0f0;
+}
+
+#product-container {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(25.375rem, 1fr));
+  gap: 1.875rem;
+  -webkit-padding-before: 2.5rem;
+          padding-block-start: 2.5rem;
+  -webkit-padding-after: 6.25rem;
+          padding-block-end: 6.25rem;
+}
+@media (max-width: 900px) {
+  #product-container {
+    grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+  }
+}
+
+.product-logo {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-inline: 1.25rem;
+  padding-block: 3.125rem;
+}
+@media (max-width: 900px) {
+  .product-logo {
+    padding-block: 1.875rem;
+  }
+}
+
+.product-logo a {
+  border: solid 0.0625rem black;
+  -webkit-box-shadow: 0.3125rem 0.1875rem 0 0 rgb(0, 0, 0);
+          box-shadow: 0.3125rem 0.1875rem 0 0 rgb(0, 0, 0);
+  padding-block: 0.625rem;
+  padding-inline: 1.125rem;
+  border-radius: 6.25rem;
+}
+
+.brands-page .footer_container {
+  border: solid 0.0625rem black;
+}
+
+.brands-page .header {
+  position: relative;
+  background-color: inherit;
+  max-width: 90rem;
+}
+/*# sourceMappingURL=brands.css.map */

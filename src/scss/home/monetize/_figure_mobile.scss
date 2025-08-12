@@ -1,0 +1,47 @@
+.red_cercle-mob,
+.vector_blue-mob,
+.vector_orange-mob,
+.vector_purple-mob,
+.vector_green-mob,
+.vector_pink-mob {
+  position: absolute;
+  display: none;
+
+}
+
+.red_cercle-mob,
+.vector_blue-mob,
+.vector_orange-mob,
+.vector_purple-mob,
+.vector_green-mob,
+.vector_pink-mob {
+  @media (max-width: 1265px) {
+    display: inline-block;
+  }
+}
+
+.red_cercle-mob {
+  top: 35%;
+
+}
+.vector_blue-mob {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.vector_orange-mob {
+  top: 12%;
+
+}
+.vector_purple-mob {
+  bottom: 4%;
+}
+.vector_green-mob {
+  bottom: 0;
+  right: 0;
+}
+.vector_pink-mob {
+  top: 45%;
+  right: 0;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,269 @@
+@use "../variables" as c;
+
+.cayenne-wrapper {
+  border: solid 1px black;
+}
+
+.cayenne-wrapper .header {
+  position: relative;
+  background-color: inherit;
+  max-width: 1440px;
+}
+
+// SECTION-CAYENNE
+
+.cayenne-page {
+  background-color: c.$main-color--lightBlue;
+}
+
+.cayenne-section {
+  padding-block-start: 135px;
+  padding-block-end: 80px;
+  padding-inline: 80px;
+  border-bottom: solid 1px black;
+  @media (max-width: 900px) {
+    padding-block-start: 80px;
+    padding-inline: 0px;
+    padding-block-end: 0px;
+  }
+}
+.cayenne-body {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  @media (max-width: 900px) {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.cayenne-arrow {
+  position: absolute;
+  top: -110px;
+}
+.cayenne_body-title {
+  max-width: 625px;
+  @media (max-width: 900px) {
+    padding-inline: 25px;
+  }
+}
+.cayenne_body-title p {
+  font-size: c.$font-size-30;
+  font-weight: 400;
+  font-family: c.$font-secondary-nunito;
+  padding-block-start: 5px;
+  @media (max-width: 900px) {
+    font-size: c.$font-size-22;
+  }
+}
+
+.cayenne-logo {
+  width: 100%;
+  max-width: 330px;
+
+  height: auto;
+}
+.cayenne_body-burger {
+  max-width: 594px;
+  max-height: 812px;
+  border-radius: 10px;
+  overflow: hidden;
+  object-fit: contain;
+  border: solid 1px black;
+  @media (max-width: 900px) {
+    max-height: 215px;
+  }
+}
+
+.cayenne-burger {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  @media (max-width: 900px) {
+  }
+}
+
+// SECTION-CRAFTER
+
+.cayenne_section-crafted {
+  padding-block: 80px;
+  padding-inline-start: 190px;
+  padding-inline-end: 100px;
+  border-bottom: solid 1px black;
+  @media (max-width: 900px) {
+    padding-inline: 0px;
+    padding-block: 60px;
+  }
+}
+.crafted_body-column {
+  display: flex;
+
+  gap: 80px;
+  align-items: center;
+  @media (max-width: 900px) {
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+}
+
+.crafted-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.crafted_body-img {
+  border-radius: 10px;
+  border: solid 1px black;
+  max-width: 500px;
+  height: auto;
+  overflow: hidden;
+}
+
+.crafted-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.crafted_body-title {
+  flex: 1;
+  max-width: 600px;
+  @media (max-width: 900px) {
+    padding-inline: 25px;
+  }
+}
+
+.crafted_body-title h2 {
+  font-size: c.$font-size-65;
+  @media (max-width: 900px) {
+    font-size: c.$font-size-35;
+    padding-block-end: 25px;
+  }
+}
+.crafted_body-title p {
+  font-size: c.$font-size-26;
+  font-weight: 400;
+  font-family: c.$font-secondary-nunito;
+  @media (max-width: 900px) {
+    font-size: c.$font-size-20;
+  }
+}
+
+// SECTION-MENU
+
+.menu_body-title {
+  padding-block: 35px;
+  padding-inline: 80px;
+  background-color: white;
+  border-bottom: solid 1px black;
+  @media (max-width: 900px) {
+    padding-inline: 25px;
+  }
+}
+
+.menu_body-title h1 {
+  font-size: c.$font-size-65;
+  @media (max-width: 900px) {
+    font-size: c.$font-size-32;
+  }
+}
+
+// SECTION MENU-CARDS
+
+.cayenne_section-cards {
+  padding-block-start: 60px;
+  border-bottom: solid 1px black;
+
+  padding-inline: 80px;
+  @media (max-width: 900px) {
+    padding-inline: 25px;
+    padding-block-start: 0;
+  }
+}
+.mealco_cards-title {
+  padding-block-end: 40px;
+  @media (max-width: 900px) {
+    padding-block-end: 20px;
+  }
+}
+
+.mealco_cards-title h2 {
+  @media (max-width: 900px) {
+    font-size: c.$font-size-20;
+  }
+}
+
+.sandwiches-cards,
+.sides-cards,
+.beverage-cards {
+  padding-block-end: 100px;
+  @media (max-width: 900px) {
+    padding-block-end: 0px;
+  }
+}
+
+.body_card-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.body_card-title h2 {
+  font-size: c.$font-size-24;
+}
+.body_card-title p {
+  font-size: c.$font-size-22;
+  font-weight: 400;
+  font-family: c.$font-secondary-nunito;
+}
+
+// Nav Items //
+
+.cayenne_section-menu {
+  padding-block-end: 40px;
+  display: none;
+  @media (max-width: 600px) {
+    display: block;
+  
+  }
+}
+.cayenne_menu-items {
+  display: flex;
+  gap: 50px;
+  overflow: auto;
+  height: 50px;
+}
+
+.cayenne_menu-item {
+  position: relative; 
+}
+
+.cayenne_menu-item button {
+  font-size: 20px;
+  font-weight: 700;
+  opacity: 0.5;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.cayenne_menu-item.active button {
+  opacity: 1;
+}
+
+.cayenne_menu-item.active::after {
+  position: absolute;
+  content: "";
+  bottom: 5px;
+  left: 45%;
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 100%;
+}
+

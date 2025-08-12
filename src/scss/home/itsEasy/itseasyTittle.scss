@@ -1,0 +1,23 @@
+@use "../../variables" as i;
+
+.easyTittle_container {
+  padding-block: 35px;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  padding-inline: 80px;
+
+  @media (max-width: 900px) {
+    padding-block: 25px;
+    padding-inline: 25px;
+    font-size: i.$font-size-32;
+  }
+}
+
+.itseasy_title {
+  font-size: i.$font-size-65;
+  line-height: 100px;
+
+  @media (max-width: 900px) {
+    font-size: i.$font-size-32;
+  }
+}

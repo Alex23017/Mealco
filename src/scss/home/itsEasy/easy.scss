@@ -1,0 +1,58 @@
+@use "../../variables" as e;
+
+.Easy_container {
+  background-color: e.$main-color--purple;
+  border: solid 1px black;
+  padding-inline: 80px;
+    @media (max-width: 900px) {
+     padding-inline: 25px;
+  }
+}
+.card_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding-block: 100px;
+
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.card_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px 2px rgba(0, 0, 0, 1);
+  padding: 35px;
+}
+
+.card_img img {
+  width: 70px;
+  height: 70px;
+}
+.card_title {
+  padding-block-start: 15px;
+  padding-block-end: 10px;
+}
+
+.card_title h4 {
+  font-size: e.$font-size-26;
+
+  @media (max-width: 900px) {
+    font-size: e.$font-size-20;
+  }
+}
+.card_text p {
+  font-size: e.$font-size-24;
+  font-family: e.$font-secondary-nunito;
+  font-weight: 400;
+
+  @media (max-width: 900px) {
+    font-size: e.$font-size-18;
+  }
+}

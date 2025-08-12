@@ -1,0 +1,26 @@
+.mealco_container {
+  padding-block: 2.1875rem;
+  border-left: solid 0.0625rem black;
+  border-right: solid 0.0625rem black;
+  padding-inline: 5rem;
+}
+@media (max-width: 900px) {
+  .mealco_container {
+    padding-block: 1.5625rem;
+    padding-inline: 1.5625rem;
+    font-size: 2rem;
+  }
+}
+
+.mealco_title {
+  font-size: 4.0625rem;
+  line-height: 6.25rem;
+}
+@media (max-width: 900px) {
+  .mealco_title {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 3.125rem;
+  }
+}
+/*# sourceMappingURL=mealcoTittle.css.map */

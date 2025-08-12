@@ -1,0 +1,42 @@
+html {
+  scroll-behavior: smooth;
+  overflow: auto;
+}
+
+body {
+  max-width: 90rem;
+  margin-inline: auto;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+a,
+p {
+  font-family: Sculpin, sans-serif;
+  font-weight: 900;
+}
+
+[class*=__container] {
+  max-width: 90rem;
+  margin-inline: auto;
+  padding-inline: 5rem;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+.scroll-hidden::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=base.css.map */

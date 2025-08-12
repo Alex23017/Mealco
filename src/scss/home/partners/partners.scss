@@ -1,0 +1,109 @@
+@use "../../variables" as p;
+
+.conteiner_partners-items {
+  padding-inline: 25px;
+}
+
+.partners_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+  background-color: p.$main-color--orange;
+}
+
+.partners_body-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  box-shadow: 5px 5px 0px 2px rgba(0, 0, 0, 1);
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 10px;
+
+  @media (max-width: 900px) {
+    padding: 25px;
+    max-width: 620px;
+  }
+}
+.partners_body-title {
+  padding-block-start: 90px;
+  padding-block-end: 40px;
+  text-align: center;
+}
+.partners_body-title h1 {
+  font-size: p.$font-size-65;
+
+  @media (max-width: 900px) {
+    font-size: p.$font-size-32;
+    padding-inline: 25px;
+  }
+}
+
+.partner_item p {
+  font-size: p.$font-size-26;
+  font-family: p.$font-secondary-nunito;
+  font-weight: 400;
+  @media (max-width: 900px) {
+    font-size: p.$font-size-16;
+  }
+}
+
+.partner_item:not(:last-child) {
+  position: relative;
+}
+
+.partner_item:not(:last-child)::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.partner_item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-block: 20px;
+}
+.partner_item img {
+  width: 36px;
+  @media (max-width: 900px) {
+    width: 16px;
+  }
+}
+
+.footer_body {
+  text-align: center;
+  padding-block-start: 50px;
+  padding-block-end: 90px;
+  padding-inline: 25px;
+  max-width: 550px;
+    @media (max-width: 900px) {
+   padding-block-start: 30px;
+  padding-block-end: 60px;
+  }
+}
+
+
+.footer_body-title h4 {
+  font-size: p.$font-size-24;
+  @media (max-width: 900px) {
+    font-size: p.$font-size-18;
+  }
+}
+.footer_body-text p {
+  padding-block-start: 10px;
+  font-size: p.$font-size-22;
+  font-family: p.$font-secondary-nunito;
+  @media (max-width: 900px) {
+    font-size: p.$font-size-16;
+  }
+}

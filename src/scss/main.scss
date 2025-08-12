@@ -1,0 +1,28 @@
+@use "./reset.scss";
+@use "./variables";
+@use "../scss/burger/burger.scss";
+@use "./header/header";
+@use "./home/monetize/section.scss";
+
+@use "./home/monetize/figure.scss";
+@use "./home/monetize/figure_mobile";
+
+@use "./home/modal/modal.scss";
+@use "./home/modalWait/modalWait.scss";
+
+@use "./home/itsEasy/itseasyTittle.scss";
+@use "./home/itsEasy/easy.scss";
+
+@use "./home/partners/partners.scss";
+@use "./home//swiper/swiper.scss";
+@use "./home//vince/vince.scss";
+@use "./home/ready/ready.scss";
+@use "./home/mealco/mealcoTittle.scss";
+@use "./home/mealco/mealco.scss";
+@use "./footer/footer.scss";
+
+@use "./base.scss";
+
+@use"./brands/brands.scss";
+@use"./press/press.scss";
+@use"./cayenne/cayenne.scss";

@@ -1,0 +1,111 @@
+@use "../variables" as p;
+
+.press-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: p.$main-color--purple;
+}
+
+.press-main {
+  flex-grow: 1;
+  padding-inline: 80px;
+  @media (max-width: 900px) {
+    padding-inline: 25px;
+  }
+}
+
+.press-page .nav-press {
+  padding-inline: 50px;
+}
+.press-title {
+  padding-block-start: 65px;
+  padding-block-end: 40px;
+
+  @media (max-width: 500px) {
+    text-align: center;
+  }
+}
+
+.press-title h1 {
+  font-size: p.$font-size-100;
+  @media (max-width: 500px) {
+    font-size: p.$font-size-40;
+    text-align: center;
+  }
+}
+
+.press-text p {
+  font-size: p.$font-size-30;
+  font-family: p.$font-secondary-nunito;
+  font-weight: 400;
+  max-width: 850px;
+  @media (max-width: 500px) {
+    font-size: p.$font-size-22;
+    max-width: 329px;
+  }
+}
+
+.press-page .swiper-slide {
+  max-width: 300px;
+}
+
+.press-page .header {
+  background-color: #f0f0f0;
+}
+
+#product-container {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(406px, 1fr));
+  gap: 30px;
+  padding-block-start: 40px;
+  padding-block-end: 100px;
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+.product-logo {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 20px;
+  padding-block: 50px;
+  @media (max-width: 900px) {
+    padding-block: 30px;
+  }
+}
+
+.product-logo a {
+  border: solid 1px black;
+  box-shadow: 5px 3px 0 0px rgba(0, 0, 0, 1);
+  padding-block: 10px;
+  padding-inline: 18px;
+  border-radius: 100px;
+}
+
+.press-page .footer_container {
+  border: solid 1px black;
+}
+.press-page .header {
+  position: relative;
+  background-color: inherit;
+  max-width: 1440px;
+}
+
+.subtitle {
+  padding-block: 100px;
+  font-weight: 400;
+  font-size: p.$font-size-30;
+  font-family: p.$font-secondary-nunito;
+  @media (max-width: 900px) {
+  font-size: p.$font-size-22;
+  padding-block-start: 65px;
+  padding-block-end: 35px;
+
+  }
+}
+
+.press-page .mealco_body-container {
+    padding: 0;
+}
+

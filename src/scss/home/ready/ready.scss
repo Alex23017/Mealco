@@ -1,0 +1,47 @@
+@use "../../variables" as r;
+
+.ready_container {
+  background-color: r.$main-color--green;
+  border: solid 1px black;
+  padding-inline: 80px;
+    @media (max-width: 900px) { 
+      padding-inline: 25px;
+    }
+
+  .ready-title {
+    padding-block-start: 86px;
+    padding-block-end: 40px;
+    font-size: r.$font-size-100;
+    line-height: 115px;
+    @media (max-width: 900px) {
+      font-size: r.$font-size-48;
+      line-height: 48px;
+      text-align: center;
+        padding-block-start: 60px;
+          padding-block-end: 25px;
+    }
+  }
+}
+
+.body_link {
+  font-size: r.$font-size-32;
+  padding-block-end: 100px;
+  @media (max-width: 900px) { 
+      font-size: r.$font-size-22;
+        padding-block-end: 65px;
+  
+}
+}
+
+.menu_item_link--width {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding-inline: 29px;
+  padding-block: 18px;
+  border-radius: 100px;
+  border: solid 3px black;
+  background-color: white;
+  box-shadow: 6px 5px 0px 0px #000, 0 0 0 2px #000;
+
+}

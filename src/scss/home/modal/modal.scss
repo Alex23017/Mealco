@@ -1,0 +1,66 @@
+@use "../../variables" as m;
+
+.modal-menu {
+  position: fixed;
+  inset: 0;
+  background: m.$main-color--lightBlue;
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.modal-menu.active {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  opacity: 1;
+  pointer-events: auto;
+  width: 100%;
+  max-width: 1440px;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-content: center;
+}
+.modal-body {
+  position: absolute;
+  text-align: center;
+  top: 30%;
+}
+
+.modal-menu-items {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  font-size: m.$font-size-20;
+}
+
+.modal-link-join {
+  padding-inline: 29px;
+  padding-block: 18px;
+  border-radius: 100px;
+  border: solid 3px black;
+  background-color: white;
+  box-shadow: 6px 5px 0px 0px #000, 0 0 0 2px #000;
+  font-size: m.$font-size-20;
+  font-weight: 900;
+  font-family: m.$font-main-nunito;
+  &:active {
+    transform: translateY(10px);
+    transition: all 0.3s ease-in-out;
+  }
+}
+.modal-button {
+  cursor: pointer;
+}
+.modal_body-button {
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+body.modal-open {
+  overflow: hidden;
+  height: 100vh;
+}

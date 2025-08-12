@@ -1,0 +1,13 @@
+.easyTittle__container {
+  -webkit-padding-before: 37px;
+          padding-block-start: 37px;
+  -webkit-padding-after: 32px;
+          padding-block-end: 32px;
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+}
+
+.itseasy_title {
+  font-size: 65px;
+  line-height: 100px;
+}/*# sourceMappingURL=itseasyTittle.css.map */

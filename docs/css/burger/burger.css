@@ -1,0 +1,29 @@
+.burger-menu,
+.burger-open,
+.burger-close {
+  cursor: pointer;
+  display: none;
+}
+.burger-menu:hover,
+.burger-open:hover,
+.burger-close:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media (max-width: 900px) {
+  .burger-menu,
+  .burger-open {
+    display: block;
+  }
+}
+
+.burger-open.active {
+  display: none;
+}
+
+.burger-close.active {
+  display: block;
+}
+/*# sourceMappingURL=burger.css.map */

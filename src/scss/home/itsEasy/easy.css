@@ -1,0 +1,54 @@
+.Easy_container {
+  background-color: #bc8cff;
+  border: solid 1px black;
+}
+
+.card__container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 406px));
+  grid-column-gap: 30px;
+  padding-block: 100px;
+}
+
+.card_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 0px 2px rgb(0, 0, 0);
+          box-shadow: 5px 5px 0px 2px rgb(0, 0, 0);
+  padding: 35px;
+}
+
+.card_img img {
+  width: 70px;
+  height: 70px;
+}
+
+.card_title {
+  -webkit-padding-before: 15px;
+          padding-block-start: 15px;
+  -webkit-padding-after: 10px;
+          padding-block-end: 10px;
+}
+
+.card_title h4 {
+  font-size: 26px;
+}
+
+.card_text p {
+  font-size: 24px;
+  font-family: Nunito Sans, sans-serif;
+  font-weight: 400;
+}/*# sourceMappingURL=easy.css.map */
