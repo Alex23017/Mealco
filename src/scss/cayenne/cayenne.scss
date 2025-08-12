@@ -4,6 +4,13 @@
   border: solid 1px black;
 }
 
+.cayenne-wrapper .nav .burger-arrow {
+@media (max-width: 900px) {
+  display: block;
+
+}
+}
+
 .cayenne-wrapper .header {
   position: relative;
   background-color: inherit;
@@ -41,6 +48,9 @@
 .cayenne-arrow {
   position: absolute;
   top: -110px;
+  @media (max-width: 900px) {
+    display: none;
+  }
 }
 .cayenne_body-title {
   max-width: 625px;
@@ -229,7 +239,6 @@
   display: none;
   @media (max-width: 600px) {
     display: block;
-  
   }
 }
 .cayenne_menu-items {
@@ -240,7 +249,7 @@
 }
 
 .cayenne_menu-item {
-  position: relative; 
+  position: relative;
 }
 
 .cayenne_menu-item button {
@@ -266,4 +275,3 @@
   background-color: black;
   border-radius: 100%;
 }
-

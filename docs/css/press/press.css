@@ -141,4 +141,15 @@
 .press-page .mealco_body-container {
   padding: 0;
 }
+
+.mealco-cards {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.mealco-cards:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
 /*# sourceMappingURL=press.css.map */

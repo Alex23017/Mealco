@@ -98,7 +98,7 @@ gulp.task("server:docs", function () {
   browserSync.init({
     server: {
       baseDir: "./docs",
-      index: "main.html",
+      index: "index.html",
     },
     port: 8080,
     open: true,

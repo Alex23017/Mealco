@@ -44,10 +44,16 @@
   padding-block: 10px;
   padding-inline: 18px;
   border-radius: 100px;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
 }
 
-.swiper-card {
 
+
+.swiper-card {
 }
 
 .swiper-slide {
@@ -61,6 +67,9 @@
   align-items: center;
   justify-content: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .slide_body-img {
@@ -79,9 +88,8 @@
   align-items: center;
   gap: 50px;
   padding-block: 40px;
-   @media (max-width: 900px) {
+  @media (max-width: 900px) {
     padding-block: 30px;
-
   }
 }
 
@@ -103,6 +111,12 @@
 .swiper-button-next {
   position: absolute !important;
   top: 469px !important;
+  &:hover {
+    transform: scale(1.1);
+    &:active {
+      transform: translateY(10px);
+    }
+  }
   @media (max-width: 900px) {
     top: 500px !important;
   }

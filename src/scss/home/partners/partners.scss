@@ -1,7 +1,12 @@
 @use "../../variables" as p;
 
 .conteiner_partners-items {
+  cursor: pointer;
   padding-inline: 25px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 
 .partners_body {

@@ -1,6 +1,19 @@
+.burger-open,
+.burger-arrow {
+  width: 55px;
+  height: 55px;
+}
+
+.burger-arrow a {
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
 .burger-menu,
 .burger-open,
-.burger-close {
+.burger-close,
+.burger-arrow {
   cursor: pointer;
   display: none;
   &:hover {
@@ -11,7 +24,8 @@
 .burger-menu,
 .burger-open {
   @media (max-width: 900px) {
-    display: block;
+    display: flex;
+    gap: 25px;
   }
 }
 

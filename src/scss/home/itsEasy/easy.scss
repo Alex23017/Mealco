@@ -29,6 +29,11 @@
   border-radius: 10px;
   box-shadow: 5px 5px 0px 2px rgba(0, 0, 0, 1);
   padding: 35px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05) !important;
+  }
 }
 
 .card_img img {

@@ -75,15 +75,29 @@ summary {
   display: block;
 }
 
+.burger-open,
+.burger-arrow {
+  width: 3.4375rem;
+  height: 3.4375rem;
+}
+
+.burger-arrow a:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .burger-menu,
 .burger-open,
-.burger-close {
+.burger-close,
+.burger-arrow {
   cursor: pointer;
   display: none;
 }
 .burger-menu:hover,
 .burger-open:hover,
-.burger-close:hover {
+.burger-close:hover,
+.burger-arrow:hover {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
@@ -92,7 +106,10 @@ summary {
 @media (max-width: 900px) {
   .burger-menu,
   .burger-open {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.5625rem;
   }
 }
 
@@ -146,6 +163,11 @@ summary {
   .nav {
     padding-block: 3.125rem;
     padding-inline: 1.5625rem;
+  }
+}
+@media (max-width: 600px) {
+  .nav {
+    padding-block: 1.5625rem;
   }
 }
 
@@ -438,7 +460,7 @@ summary {
 }
 
 .vector_purple-mob {
-  bottom: 4%;
+  bottom: 3%;
 }
 
 .vector_green-mob {
@@ -757,8 +779,10 @@ body.modal-waitlist {
         -ms-flex-pack: center;
             justify-content: center;
     padding-inline: 1.25rem;
-    -webkit-padding-after: 1.25rem;
-            padding-block-end: 1.25rem;
+    -webkit-padding-before: 1.25rem;
+            padding-block-start: 1.25rem;
+    -webkit-padding-after: 2.5rem;
+            padding-block-end: 2.5rem;
   }
 }
 
@@ -937,6 +961,14 @@ body.modal-waitlist {
   -webkit-box-shadow: 0.3125rem 0.3125rem 0 0.125rem rgb(0, 0, 0);
           box-shadow: 0.3125rem 0.3125rem 0 0.125rem rgb(0, 0, 0);
   padding: 2.1875rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.card_body:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05) !important;
+      -ms-transform: scale(1.05) !important;
+          transform: scale(1.05) !important;
 }
 
 .card_img img {
@@ -972,7 +1004,15 @@ body.modal-waitlist {
 }
 
 .conteiner_partners-items {
+  cursor: pointer;
   padding-inline: 1.5625rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.conteiner_partners-items:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .partners_body {
@@ -1182,6 +1222,12 @@ body.modal-waitlist {
   padding-inline: 1.125rem;
   border-radius: 6.25rem;
 }
+.slide-link:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
 
 .swiper-slide {
   width: 25.375rem !important;
@@ -1207,6 +1253,11 @@ body.modal-waitlist {
   transition: -webkit-transform 0.3s ease, -webkit-box-shadow 0.3s ease;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   transition: transform 0.3s ease, box-shadow 0.3s ease, -webkit-transform 0.3s ease, -webkit-box-shadow 0.3s ease;
+}
+.swiper-slide:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .slide_body-img {
@@ -1262,6 +1313,18 @@ body.modal-waitlist {
 .swiper-button-next {
   position: absolute !important;
   top: 29.3125rem !important;
+}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.swiper-button-prev:hover:active,
+.swiper-button-next:hover:active {
+  -webkit-transform: translateY(0.625rem);
+      -ms-transform: translateY(0.625rem);
+          transform: translateY(0.625rem);
 }
 @media (max-width: 900px) {
   .swiper-button-prev,
@@ -2101,8 +2164,25 @@ p {
   padding: 0;
 }
 
+.mealco-cards {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.mealco-cards:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
 .cayenne-wrapper {
   border: solid 0.0625rem black;
+}
+
+@media (max-width: 900px) {
+  .cayenne-wrapper .nav .burger-arrow {
+    display: block;
+  }
 }
 
 .cayenne-wrapper .header {
@@ -2156,6 +2236,11 @@ p {
 .cayenne-arrow {
   position: absolute;
   top: -6.875rem;
+}
+@media (max-width: 900px) {
+  .cayenne-arrow {
+    display: none;
+  }
 }
 
 .cayenne_body-title {

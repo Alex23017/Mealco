@@ -2,6 +2,12 @@
   border: solid 0.0625rem black;
 }
 
+@media (max-width: 900px) {
+  .cayenne-wrapper .nav .burger-arrow {
+    display: block;
+  }
+}
+
 .cayenne-wrapper .header {
   position: relative;
   background-color: inherit;
@@ -53,6 +59,11 @@
 .cayenne-arrow {
   position: absolute;
   top: -6.875rem;
+}
+@media (max-width: 900px) {
+  .cayenne-arrow {
+    display: none;
+  }
 }
 
 .cayenne_body-title {

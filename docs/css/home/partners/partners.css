@@ -1,5 +1,13 @@
 .conteiner_partners-items {
+  cursor: pointer;
   padding-inline: 1.5625rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.conteiner_partners-items:hover {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .partners_body {

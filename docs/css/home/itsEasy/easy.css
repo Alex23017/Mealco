@@ -40,6 +40,14 @@
   -webkit-box-shadow: 0.3125rem 0.3125rem 0 0.125rem rgb(0, 0, 0);
           box-shadow: 0.3125rem 0.3125rem 0 0.125rem rgb(0, 0, 0);
   padding: 2.1875rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.card_body:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05) !important;
+      -ms-transform: scale(1.05) !important;
+          transform: scale(1.05) !important;
 }
 
 .card_img img {

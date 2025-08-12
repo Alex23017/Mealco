@@ -210,8 +210,10 @@ body.modal-waitlist {
         -ms-flex-pack: center;
             justify-content: center;
     padding-inline: 1.25rem;
-    -webkit-padding-after: 1.25rem;
-            padding-block-end: 1.25rem;
+    -webkit-padding-before: 1.25rem;
+            padding-block-start: 1.25rem;
+    -webkit-padding-after: 2.5rem;
+            padding-block-end: 2.5rem;
   }
 }
 

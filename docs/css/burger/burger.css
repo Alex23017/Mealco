@@ -1,12 +1,26 @@
+.burger-open,
+.burger-arrow {
+  width: 3.4375rem;
+  height: 3.4375rem;
+}
+
+.burger-arrow a:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .burger-menu,
 .burger-open,
-.burger-close {
+.burger-close,
+.burger-arrow {
   cursor: pointer;
   display: none;
 }
 .burger-menu:hover,
 .burger-open:hover,
-.burger-close:hover {
+.burger-close:hover,
+.burger-arrow:hover {
   -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
           transform: scale(1.1);
@@ -15,7 +29,10 @@
 @media (max-width: 900px) {
   .burger-menu,
   .burger-open {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.5625rem;
   }
 }
 
