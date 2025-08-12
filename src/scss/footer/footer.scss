@@ -5,19 +5,16 @@
   border-right: solid 1px black;
   border-bottom: solid 1px black;
   background-color: white;
-
 }
 .footer-body {
   display: flex;
-   width: 100%;
-   padding-inline: 80px;
+  width: 100%;
+  padding-inline: 80px;
   align-items: center;
   @media (max-width: 900px) {
     flex-direction: column;
     padding: 0;
-  
   }
-
 }
 .footer-img {
   padding-block: 35px;
@@ -26,13 +23,11 @@
   @media (max-width: 900px) {
     border: inherit;
     padding: 20px;
-    
-  
   }
 }
 
 .footer-img img {
-    width: 100%;
+  width: 100%;
 }
 
 .footer_body-nav {
@@ -44,16 +39,13 @@
     flex-direction: column-reverse;
     text-align: center;
     border: solid 1px black;
-   
-  
   }
 }
 .copyright {
   padding-inline-start: 80px;
   @media (max-width: 900px) {
-      padding-inline-start: 0;
+    padding-inline-start: 0;
     padding-block: 20px;
-  
   }
 }
 .copyright p {
@@ -66,7 +58,6 @@
   gap: 50px;
   @media (max-width: 900px) {
     padding-block-start: 20px;
-  
   }
 }
 

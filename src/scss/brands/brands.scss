@@ -1,8 +1,8 @@
 @use "../variables" as b;
 
 .brands-wrapper {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   background-color: b.$main-color--blue;
 }
 
@@ -23,18 +23,14 @@
   max-width: 850px;
   @media (max-width: 500px) {
     text-align: center;
-  
   }
-
-  }
-
+}
 
 .brands-title h1 {
   font-size: b.$font-size-100;
   @media (max-width: 500px) {
     font-size: b.$font-size-40;
     text-align: center;
-  
   }
 }
 
@@ -43,17 +39,15 @@
   font-family: b.$font-secondary-nunito;
   font-weight: 400;
   max-width: 850px;
-    @media (max-width: 500px) {
+  @media (max-width: 500px) {
     font-size: b.$font-size-22;
     max-width: 329px;
-  
   }
 }
 
 .brands-page .swiper-slide {
-    max-width: 300px;
+  max-width: 300px;
 }
-
 
 .brands-page .header {
   background-color: #f0f0f0;
@@ -67,9 +61,7 @@
   padding-block-start: 40px;
   padding-block-end: 100px;
   @media (max-width: 900px) {
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
- 
-  
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
 .product-logo {
@@ -79,8 +71,7 @@
   padding-inline: 20px;
   padding-block: 50px;
   @media (max-width: 900px) {
-     padding-block: 30px;
-  
+    padding-block: 30px;
   }
 }
 
@@ -92,14 +83,11 @@
   border-radius: 100px;
 }
 
-
-
 .brands-page .footer_container {
-    border: solid 1px black;
+  border: solid 1px black;
 }
 .brands-page .header {
-    position: relative;
- background-color: inherit;
- max-width: 1440px;
-
+  position: relative;
+  background-color: inherit;
+  max-width: 1440px;
 }
