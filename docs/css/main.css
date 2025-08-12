@@ -2527,4 +2527,8 @@ p {
   background-color: black;
   border-radius: 100%;
 }
+
+.mealco_card-text h3 {
+  font-size: 1rem;
+}
 /*# sourceMappingURL=main.css.map */
